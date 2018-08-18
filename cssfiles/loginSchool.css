@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('body.css');
+@import url('heading.css');
+@import url('header.css');
+@import url('errormsg.css');
+@import url('confirmmsg.css');
+@import url('submit.css');
+
+#schoolcode {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+#schoolcodeinput  {
+    margin-top: 10px; 
+    margin-left: calc(50% - 251.5px); 
+    width: 500px; 
+    height: 60px; 
+    font-size: 20px; 
+    font-family: 'Trebuchet MS';
+    margin-bottom: 30px;
+}
+

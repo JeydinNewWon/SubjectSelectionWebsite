@@ -1,0 +1,80 @@
+/* Navigation bar CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('body.css');
+@import url('heading.css');
+@import url('header.css');
+@import url('errormsg.css');
+@import url('confirmmsg.css');
+@import url('submit.css');
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:#43AC6A;
+    font-weight: lighter;
+}
+
+/* typable boxes */
+#email {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 65px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+/* header for password */
+#password {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+/* header for school */
+#school {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+/* email input */
+#emailinput {
+    margin-top: 50px; 
+    margin-left: calc(50% - 251.5px); 
+    width: 500px; 
+    height: 60px; 
+    font-size: 20px; 
+    font-family: 'Trebuchet MS';
+
+}
+
+/* password input */
+#passwordinput {
+    margin-top: 50px; 
+    margin-left: calc(50% - 251.5px); 
+    width :500px; 
+    height: 60px; 
+    font-size: 20px; 
+    font-family: 'Trebuchet MS';
+}
+
+/* select your school */
+#selector {
+    margin-top: 50px; 
+    margin-left: calc(50% - 251.5px); 
+    width: 505px; 
+    height: 60px; 
+    font-size: 20px; 
+    font-family: 'Trebuchet MS';
+}
+
+

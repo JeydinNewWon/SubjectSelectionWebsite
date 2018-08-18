@@ -1,0 +1,39 @@
+/* Navigation bar CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('body.css');
+@import url('header.css');
+@import url('heading.css');
+
+
+/* Headings */
+
+.buttons {
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Student and School buttons */
+.student_button, .school_button {
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 30px;
+    background: #43AC6A;
+    padding: 20px; 
+    width: 250px;
+    line-height: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-weight: bold;
+}
+.student_button {
+    margin-right: 5%;
+}
+.school_button {
+    margin-left: 5%;
+}
+
+

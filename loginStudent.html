@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Login</title>
+        <!-- Navigation bar CSS-->
+        <link rel="stylesheet" href="cssfiles/loginStudent.css" type="text/css">
+        </link>
+    </head>
+    <header>
+        <a href="index.html">
+        <img src="assets/images/PatricianIcon.jpg" alt="icon" href="index.html" style="width:60x;height:60px;float:left;"></img>
+        </a>
+        <script src="BrowserJS/loginStudentBrowser.js"></script>
+    </header>
+    <body>
+        <!-- Title -->
+        <h1 id="loginHeading"> Student Login </h1>
+        <!-- typable boxes -->
+        <form name="typable_boxes" method=GET id="login" action="subjectSelection.html">
+            <h2 id=email>
+                Email:
+            </h2>
+            <input type="text" id="emailinput" name="email">
+            <h3 id=password>
+                Password:
+            </h3>
+            <input id="passwordinput" type="text" name="password"> 
+            <h4 id=school>
+                School:
+            </h4>
+            <select id=selector name="school">
+                <option value="PBCF">PBCF</option>
+                <option value="Other">Other School</option>
+            </select>
+            <p id=canaccess style=font-size:0px!important>false</p>
+            <br>
+            </br>
+            <input id="submit" type="submit" value="Submit"  style="width:150px; height:80px; display: block; background-color: #4CAF50; border-radius: 10px; font-size: 20px; font-family: 'Trebuchet MS'; font-weight: bold; color: white;"> 
+        </form>
+    </body>
+</html>

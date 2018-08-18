@@ -1,0 +1,14 @@
+#submit {
+    margin-left: calc(50% - 71px);
+    margin-top: 20px;
+    width:150px; 
+    height:80px; 
+    display: block;
+    background-color: #43AC6A; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-family: 'Trebuchet MS'; 
+    font-weight: bold; 
+    color: white;
+    cursor: pointer;
+}
