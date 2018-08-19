@@ -169,7 +169,7 @@ function addSubject() {
         }
 
         // if newSubjectunits is empty,
-        if (typeof newSubjectUnits === "null") {
+        if (typeof newSubjectUnits === "null" || newSubjectUnits <= 0 || newSubjectUnits > 2) {
             // send an error message.
             errorMsg("Invalid subject units.");
             return;
