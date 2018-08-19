@@ -36,7 +36,7 @@ function init(cb) {
             $("#loadingIcon").remove();
 
             // after the total units message, create the subject list.
-            $('#totalUnits').after('<form class="subjectlist"> <input id="submit" type="submit" value="Submit"> </form>');
+            $('#helpMsg').after('<form class="subjectlist"> <input id="submit" type="submit" value="Submit"> </form>');
 
             // get school subject data list.
             var schoolSubjectData = JSON.parse(schoolSubjectsBody)[0].subjectList;
