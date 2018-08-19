@@ -35,8 +35,8 @@ function init(cb) {
             // remove the loading icon.
             $("#loadingIcon").remove();
 
-            // after the add subject box, create the subject list.
-            $('#addsubjectwrapper').after('<form class="subjectlist"> <input id="submit" type="submit" value="Submit"> </form>');
+            // after the total units message, create the subject list.
+            $('#totalUnits').after('<form class="subjectlist"> <input id="submit" type="submit" value="Submit"> </form>');
 
             // get school subject data list.
             var schoolSubjectData = JSON.parse(schoolSubjectsBody)[0].subjectList;
