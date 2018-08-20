@@ -3,6 +3,17 @@
 @import url('header.css');
 @import url('heading.css');
 
+#help {
+    display: inline;
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    left: 45%;
+    margin-right: 40px;
+    top: 20px;
+}
+
 .buttons {
     display: block;
     text-align: center;

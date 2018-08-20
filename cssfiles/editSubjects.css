@@ -157,3 +157,14 @@
     width: calc(300px * 0.7);
     height: calc(400px * 0.7);
 }
+
+#help {
+    display: inline;
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    left: 45%;
+    margin-right: 40px;
+    top: 20px;
+}

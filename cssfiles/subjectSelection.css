@@ -7,14 +7,25 @@
 @import url('submit.css');
 
 #studentname {
+    display: inline;
     position: relative;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    left: 82%;
-    margin-right: 40px;
+    left: 80%;
+    top: 20px;
 }
 
+#help {
+    display: inline;
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    left: 45%;
+    margin-right: 40px;
+    top: 20px;
+}
 .subjectlist {
     display: block;
     width: 60%;

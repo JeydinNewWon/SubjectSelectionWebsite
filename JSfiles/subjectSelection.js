@@ -25,7 +25,7 @@ function init() {
     var lastName = firstAndLastName[1];
 
     // insert the first and last name onto top right corner of page.
-    $('header a').after(`<p id="studentname">${lastName.toUpperCase() + ', ' + firstName[0].toUpperCase()  + firstName.slice(1, firstName.length)}</p>`)
+    $('#help').after(`<p id="studentname">${lastName.toUpperCase() + ', ' + firstName[0].toUpperCase()  + firstName.slice(1, firstName.length)}</p>`)
     
     // query the database get the student's chosen subjects.
     request.get(`https://subjectselect-36c2.restdb.io/rest/studentsubjectselection?q={"email": "${email}"}`, opts, (err, rsp, body) => {
